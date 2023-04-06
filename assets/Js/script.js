@@ -11,16 +11,8 @@ let ballMy = 5;
 let count = 0;
 
 
-// StartGame()
 onkeydown = barMove;
 let set = setInterval(ballMove, 40);
-
-function StartGame() {
-    let play_leave = confirm('Did You Want To PLay Game')
-    if (play_leave == false) {
-        return false
-    }
-}
 
 
 function barMove(e) {

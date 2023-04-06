@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+.bg-wallpaper{
     background-image: url('/assets/Img/1680x1050-px-3D-abstract-ART-artistic-bright-1496729-wallhere.com.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,3 +98,4 @@ body{
     position: absolute;
     bottom: -20px;
 }
+
