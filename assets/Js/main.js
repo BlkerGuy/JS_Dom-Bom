@@ -22,7 +22,6 @@ range_inp.addEventListener('change',Range);
 
 function BorderRange(){
     let newBorderPercent=border_range_inp.value*10;
-    console.log(newBorderPercent);
     for(let i=0; i<card.length; i++){
     card_img[i].style.borderRadius=(`${newBorderPercent}%`);
     show_b_range.innerText=(`${border_range_inp.value}%`);
